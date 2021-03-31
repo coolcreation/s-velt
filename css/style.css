@@ -1,0 +1,124 @@
+/*   Jeff Bohn   2/27/2021   LAB 6     */
+
+
+
+
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;  
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.flex-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main1{
+    background-color: white;
+    border: solid  #36454F 3px;
+    padding: 0;  
+    display: grid;
+    place-items: center; 
+ }
+.main2{
+    font-size: 1em;
+    margin-top: 5vh;
+    display: grid;
+    place-items: center; 
+}
+#renderCanvas {
+    max-width: 90vw;
+    touch-action: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main3{
+    max-width: auto;
+    font-size: 1em;
+    border: none;
+    margin-top: 7vh;
+    background-color: aliceblue;
+}
+h1 { 
+    color: rgb(25, 25, 186);
+    margin-bottom: .5em;
+    display: grid;
+    place-items: center; 
+    font-size: large;
+}
+h2{
+    font-size: large;
+    margin-top: 3em;
+    margin-bottom: -2em;
+    display: grid;
+    place-items: center; 
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.toolTip{
+    background-color: rgb(25, 25, 186);
+    color: white;
+    font-size: larger;
+    padding: 1em;
+    border: 4px solid black;
+    border-radius: 50%;
+    text-decoration: none;
+    }
+    .col3{
+        margin-top: 10vh;
+        display: grid;
+        place-items: center; 
+        }
+
+@media screen and (min-width: 950px) {
+    .main1{
+        max-width: 70vw;
+        margin-top: 1vh;
+        padding: 10px 10px;
+    }
+    
+    .main2{
+        max-width: 50vw;
+        margin-top: 7vh;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+  
+    .main3{
+        width: 65vw;
+        margin-top: 7vh;
+        margin-bottom: 7vh; 
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+    h2{
+        font-size: 1.4em;
+    }
+   .footer{
+        font-size: 1.1em;
+        text-align: center;
+        letter-spacing: .07em;
+        margin-bottom:  -2vh;
+      } 
+
+
+    #renderCanvas {
+        width: 100%;
+        height: 100%;
+        touch-action: none;
+    }
+    .col3{
+        margin-top: 5vh !important;
+        display: grid;
+        place-items: center; 
+        }
+  }
